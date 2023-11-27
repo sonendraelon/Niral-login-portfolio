@@ -13,7 +13,7 @@ const Login = () => {
 
     try {
       await axios
-        .post('http://localhost:8000/', {
+        .post('https://login-portfolio-niral.onrender.com', {
           email,
           password,
         })
